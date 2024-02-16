@@ -1,0 +1,30 @@
+.texto-marca-custom {
+    font-size: 55px;
+}
+
+.texto-marca-slice {
+    font-size: 73px;
+}
+
+.marca-underline {
+    border-bottom: 1px solid #BE7D06;
+}
+
+.texto-nav {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.brand-underline {
+    color: #FFA500 !important;
+    border: 3px solid !important;
+    border-color: #FFA500 !important;
+}
+
+.background-light-yellow {
+    background-color: #BE7D06 !important;
+}
+
+.background-dark-yellow {
+    background-color: #8B4513 !important;
+}
