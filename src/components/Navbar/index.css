@@ -1,0 +1,37 @@
+.texto-marca-custom {
+    font-size: 3rem;/*55px;*/
+}
+
+.texto-marca-slice {
+    /* font-size: 73px; */
+    font-size: 3.5rem;
+}
+
+.marca-underline {
+    border-bottom: 1px solid #BE7D06;
+}
+
+.texto-nav {
+    font-size: 1.2rem !important;  /*20px */
+    font-weight: bold !important;
+    text-shadow: var(--strongBackground) 1px 0 10px;
+}
+
+.brand-underline {
+    color: #FFA500 !important;
+    border: 3px solid !important;
+    border-color: #FFA500 !important;
+}
+
+.background-light-yellow {
+    background-color: #BE7D06 !important;
+}
+
+.background-dark-yellow {
+    background-color: #8B4513 !important;
+}
+
+.navbar{
+    max-height: 15vh;
+    max-width: 100%;
+}
