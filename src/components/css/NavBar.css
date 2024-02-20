@@ -1,9 +1,8 @@
 .texto-marca-custom {
-    font-size: 3rem;/*55px;*/
+    font-size: 3rem;
 }
 
 .texto-marca-slice {
-    /* font-size: 73px; */
     font-size: 3.5rem;
 }
 
@@ -12,7 +11,7 @@
 }
 
 .texto-nav {
-    font-size: 1.2rem !important;  /*20px */
+    font-size: 1.2rem !important;
     font-weight: bold !important;
 }
 
