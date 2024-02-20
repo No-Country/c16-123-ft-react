@@ -1,0 +1,104 @@
+.background-pizza {
+    display: inline;
+    /* width: 1786.05px;
+    height: 1610.3px; */
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    /* top: -242px; */
+    top: 0px;
+    /* left: 746.45px; */
+    /* left: 60%; */
+    right: 0px;
+    opacity: 100%;
+    z-index: 2;
+}
+
+.parrafo-inicio {
+    font-size: 1.5rem;
+}
+
+.header{
+    font-size: 2rem;
+}
+
+.welcome{
+  left: 5%;
+  top: 40%;
+  width: 60%;
+
+  /*extra*/
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.form-background{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 15%;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-shape{
+    position: absolute;
+    max-height: 100vh;
+    z-index: -1;
+    color: var(--primary);
+    opacity: 100%;
+    top:0;
+    right: 18%;
+    left: 10%;
+    min-height: 100vh;
+    animation-duration: 0.5s;
+  animation-name: slidein;
+  opacity: 20%;
+}
+
+.inicioSesion{
+    z-index: 2;
+    animation-duration: 1s;
+  animation-name: slidein;
+  width: 50%;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+input{
+    margin-bottom: 10px !important;
+    background: none !important;
+    background-color: none !important;
+    border-color: var(--primary) !important;
+    box-shadow: var(--primary) !important;
+    color: white !important;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--orangeDarK);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+main.off{
+ right: -100%;
+}
