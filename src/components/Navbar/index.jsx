@@ -1,5 +1,5 @@
-import { Nav, Navbar } from "react-bootstrap";
 import './index.css';
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
