@@ -3,16 +3,25 @@ import './index.css';
 
 const NavBar = () => {
     return (
-        <Navbar className="d-flex mx-3 px-3 mt-2 justify-content-between navbar" fixed="top">
-            <Navbar.Brand href="#inicio" className="texto-blanco marca-underline pb-0"><span className="texto-marca-custom">Custom</span> <span className="texto-marca-slice texto-amarillo">Slice</span></Navbar.Brand>
+        <nav id="navbar">
+            <Link href="#inicio" className="texto-blanco marca-underline" to="/">
+                <span className="texto-marca-custom">Custom</span>
+                <span className="texto-marca-slice texto-amarillo">Slice</span>
+            </Link>
+            <div id="nav-links">
+                <ul id="nav-ulist">
+                    <li>
+                        <Link href="#inicio" className="texto-blanco nav-texto nav-custom-link" to="/"> Inicio</Link>
+                    </li>
+                    <li>
+                        <Link href="#menu" className="texto-blanco nav-texto nav-custom-link" to="/"> Menú</Link>
+                    </li>
+                </ul >
+                <Link href="#login" className="texto-blanco background-dark-yellow rounded nav-texto nav-boton" to="/" > Iniciar Sesión</Link>
+                <Link href="#registro" className="texto-blanco background-night-yellow rounded nav-texto nav-boton" to="/registro" > Registrarme</Link>
+            </div>
 
-            <Nav>
-                <Nav.Link href="#inicio" className="texto-blanco mx-2 texto-nav text-shadow">Inicio</Nav.Link>
-                <Nav.Link href="#menu" className="texto-blanco mx-2 texto-nav">Menú</Nav.Link>
-                <Nav.Link href="#login" className="texto-blanco mx-2 background-light-yellow rounded texto-nav">Iniciar Sesión</Nav.Link>
-                <Nav.Link href="#registro" className="texto-blanco mx-2 background-dark-yellow rounded texto-nav">Registrarme</Nav.Link>
-            </Nav>
-        </Navbar>
+        </nav >
     )
 }
 
