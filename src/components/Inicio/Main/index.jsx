@@ -26,7 +26,7 @@ const Main = () => {
                         <label htmlFor="passsword" className="form-label text-white">Contraseña</label>
                         <input type="password" name="passsword" id="passsword"className="form-control"/>
                         
-                        <button className='background-light-yellow'>Iniciar</button>
+                        <button className='background-dark-yellow'>Iniciar</button>
                     </form>
                 </div>
             </section>
@@ -38,7 +38,7 @@ const Main = () => {
                 <div className='position-absolute welcome'>
                     <h1 className="text-start text-white">Decora tu pizza a tu gusto</h1>
                     <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
-                    <button className='background-light-yellow' onClick={openLogin}>Comenzemos</button>
+                    <button className='background-dark-yellow' onClick={openLogin}>Comenzemos</button>
                 </div>
                 
             </main>

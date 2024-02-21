@@ -1,8 +1,11 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+import NavBar from '../Navbar'
 
 const Registro = () => {
   return (
-    <div>Registro</div>
+    <>
+      <NavBar></NavBar>
+    </>
   )
 }
 
