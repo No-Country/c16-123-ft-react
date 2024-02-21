@@ -7,7 +7,7 @@
 }
 
 .marca-underline {
-    border-bottom: 1px solid #BE7D06;
+    border-bottom: 1px solid var(--orangeDarK);
 }
 
 .texto-nav {
@@ -16,17 +16,9 @@
 }
 
 .brand-underline {
-    color: #FFA500 !important;
+    color: var(--primary) !important;
     border: 3px solid !important;
-    border-color: #FFA500 !important;
-}
-
-.background-light-yellow {
-    background-color: #BE7D06 !important;
-}
-
-.background-dark-yellow {
-    background-color: #8B4513 !important;
+    border-color: var(--primary) !important;
 }
 
 .navbar{
