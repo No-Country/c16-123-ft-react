@@ -10,11 +10,11 @@ const NavBar = ({setLogin}) => {
             </div>
             <div id="nav-links">
                 <ul id="nav-ulist">
-                    <li>
+                    {/* <li>
                         <Link href="#inicio" 
                         className="texto-blanco nav-texto nav-custom-link" 
                         onClick={()=>setLogin(false)} to="/"> Inicio</Link>
-                    </li>
+                    </li> */}
                     {/* <li>
                         <Link href="#menu" 
                         className="texto-blanco nav-texto nav-custom-link" 
