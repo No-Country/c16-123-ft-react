@@ -1,15 +1,8 @@
-import { useState } from 'react'
 import './index.css'
 import  "react-bootstrap"
 
-const Main = () => {
-    const [login, setLogin] = useState(false);
-
-    function openLogin(){
-        setLogin(true)
-        console.log(login)
-    }
-
+const Main = ({login, openLogin}) => {
+    console.log(login);
     if(login){
         return(
             <section name="login" className='form-background'>

@@ -1,11 +1,16 @@
 import NavBar from '../Navbar'
 import Main from './Main'
 
-const Inicio = () => {
+const Inicio = ({login, setLogin}) => {
+
+    function openLogin(){
+        setLogin(true)
+        console.log(login)
+    }
     return (
         <>
-            <NavBar></NavBar>
-            <Main></Main>
+            <NavBar setLogin={setLogin}></NavBar>
+            <Main login={login} openLogin={openLogin}></Main>
         </>
     )
 }

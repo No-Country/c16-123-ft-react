@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import NavBar from '../Navbar'
 
-const Registro = () => {
+const Registro = ({login, setLogin}) => {
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar login={login} setLogin={setLogin} ></NavBar>
     </>
   )
 }
