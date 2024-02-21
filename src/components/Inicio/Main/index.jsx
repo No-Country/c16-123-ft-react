@@ -19,7 +19,7 @@ const Main = ({login, openLogin}) => {
                         <label htmlFor="passsword" className="form-label text-white">Contraseña</label>
                         <input type="password" name="passsword" id="passsword"className="form-control"/>
                         
-                        <button className='background-dark-yellow'>Iniciar</button>
+                        <button className='background-primary-yellow'>Iniciar</button>
                     </form>
                 </div>
             </section>
@@ -30,8 +30,8 @@ const Main = ({login, openLogin}) => {
                 <img className="background-pizza z-1" src='/src/assets/pizza.png'></img>
                 <div className='position-absolute welcome'>
                     <h1 className="text-start text-white">Decora tu pizza a tu gusto</h1>
-                    <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
-                    <button className='background-dark-yellow' onClick={openLogin}>Comenzemos</button>
+                    <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, ¡justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
+                    <button className='background-primary-yellow' onClick={openLogin}>Comencemos</button>
                 </div>
                 
             </main>
