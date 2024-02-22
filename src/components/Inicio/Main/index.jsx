@@ -1,8 +1,19 @@
+import { useNavigate } from 'react-router-dom';
 import './index.css'
 import  "react-bootstrap"
 
 const Main = ({login, openLogin}) => {
     console.log(login);
+    const navigate = useNavigate();
+
+    const navigateToLogin=()=>{
+        navigate("/login");
+    };
+
+    const navigateToHome=()=>{
+        navigate("/");
+    };
+
     if(login){
         return(
             <section name="login" className='form-background'>
@@ -19,7 +30,7 @@ const Main = ({login, openLogin}) => {
                         <label htmlFor="passsword" className="form-label text-white">Contraseña</label>
                         <input type="password" name="passsword" id="passsword"className="form-control"/>
                         
-                        <button className='background-primary-yellow'>Iniciar</button>
+                        <button className='texto-blanco background-primary-yellow' onClick={navigateToHome}>Iniciar</button>
                     </form>
                 </div>
             </section>
@@ -31,7 +42,7 @@ const Main = ({login, openLogin}) => {
                 <div className='position-absolute welcome'>
                     <h1 className="text-start text-white">Decora tu pizza a tu gusto</h1>
                     <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, ¡justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
-                    <button className='background-primary-yellow' onClick={openLogin}>Comencemos</button>
+                    <button className='texto-blanco background-primary-yellow' onClick={() => {openLogin(); navigateToLogin();}}>Comencemos</button>
                 </div>
                 
             </main>
