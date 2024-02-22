@@ -27,6 +27,10 @@
     height: 56px;
 }
 
+#nav-marca{
+    cursor: default;
+}
+
 .texto-marca-custom {
     font-size: 3.438rem;
 }

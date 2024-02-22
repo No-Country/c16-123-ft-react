@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = ({setLogin}) => {
     return (
         <nav id="navbar">
-        <Link href="#inicio" className="texto-blanco marca-underline" to="/">
+        <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={()=>setLogin(false)} to="/">
             <span className="texto-marca-custom">Custom</span>
             <span className="texto-marca-slice texto-amarillo">Slice</span>
         </Link>
