@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const NavBar = ({setLogin}) => {
     return (
         <nav id="navbar">
-            <div className="texto-blanco marca-underline">
-                <span className="texto-marca-custom">Custom</span>
-                <span className="texto-marca-slice texto-amarillo">Slice</span>
-            </div>
+        <Link href="#inicio" className="texto-blanco marca-underline" to="/">
+            <span className="texto-marca-custom">Custom</span>
+            <span className="texto-marca-slice texto-amarillo">Slice</span>
+        </Link>
             <div id="nav-links">
                 <ul id="nav-ulist">
                     {/* <li>
