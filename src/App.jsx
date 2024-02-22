@@ -11,7 +11,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Inicio login={login} setLogin={setLogin} />} > </Route>
+        <Route path="/" element={<Inicio login={login} setLogin={setLogin} />} >
+          <Route path="/inicio" element={<Inicio login={login} setLogin={setLogin} />} > 
+          </Route>
+          <Route path="/login" element={<Inicio login={login} setLogin={setLogin} />} > 
+          </Route>
+        </Route>
         <Route path="registro" element={<Registro login={login} setLogin={setLogin} />} ></Route>
       </Routes>
     </BrowserRouter>

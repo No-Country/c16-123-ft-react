@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = ({setLogin}) => {
     return (
         <nav id="navbar">
-        <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={()=>setLogin(false)} to="/">
+        <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={()=>setLogin(false)} to="/inicio">
             <span className="texto-marca-custom">Custom</span>
             <span className="texto-marca-slice texto-amarillo">Slice</span>
         </Link>
@@ -23,7 +23,7 @@ const NavBar = ({setLogin}) => {
                     </li> */}
                 </ul >
                 <Link href="#login" 
-                className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={()=>setLogin(true)} to="/"> Iniciar Sesión</Link>
+                className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={()=>setLogin(true)} to="/login"> Iniciar Sesión</Link>
                 {/* TOMAS: Botón coulto hasta que la pagina de registro este completa 
                 <Link href="#registro" 
                 className="texto-blanco background-night-yellow rounded nav-texto nav-boton boton-night" to="/registro" > Registrarme</Link>
