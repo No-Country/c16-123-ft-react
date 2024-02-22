@@ -1,14 +1,26 @@
 import './App.css'
-import Inicio  from './components/Inicio';
-
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+import Inicio from './components/Inicio/index';
+import Registro from './components/Registro/Registro';
+import { useState } from 'react';
 
+function App() {
+  const [login, setLogin] = useState(false);
   return (
-    <>
-      <Inicio></Inicio>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Inicio login={login} setLogin={setLogin} />} >
+          <Route path="/inicio" element={<Inicio login={login} setLogin={setLogin} />} > 
+          </Route>
+          <Route path="/login" element={<Inicio login={login} setLogin={setLogin} />} > 
+          </Route>
+        </Route>
+        <Route path="registro" element={<Registro login={login} setLogin={setLogin} />} ></Route>
+      </Routes>
+    </BrowserRouter>
+
   )
 }
 

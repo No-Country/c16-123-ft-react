@@ -1,37 +1,112 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 20px 48px 0 56px;
+}
+
+#nav-links {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#nav-ulist {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 1.5px 0 1.5px;
+    z-index: 10;
+    align-items: center;
+    height: 56px;
+}
+
+#nav-marca{
+    cursor: default;
+}
+
 .texto-marca-custom {
-    font-size: 3rem;/*55px;*/
+    font-size: 3.438rem;
 }
 
 .texto-marca-slice {
-    /* font-size: 73px; */
-    font-size: 3.5rem;
+    font-size: 4.563rem;
 }
 
 .marca-underline {
-    border-bottom: 1px solid #BE7D06;
+    border-bottom: 1px solid var(--orangeDarK);
 }
 
-.texto-nav {
-    font-size: 1.2rem !important;  /*20px */
-    font-weight: bold !important;
-    text-shadow: var(--strongBackground) 1px 0 10px;
+.navbar {
+    margin: 20px 56px 0 0;
+}
+
+.nav-texto {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .brand-underline {
-    color: #FFA500 !important;
-    border: 3px solid !important;
-    border-color: #FFA500 !important;
+    color: var(--primary);
+    border: 3px solid;
+    border-color: var(--primary);
 }
 
-.background-light-yellow {
-    background-color: #BE7D06 !important;
+.background-primary-yellow{
+    background-color: var(--primary);
 }
 
 .background-dark-yellow {
-    background-color: #8B4513 !important;
+    background-color: var(--orangeDarK);
 }
 
-.navbar{
-    max-height: 15vh;
-    max-width: 100%;
+.background-night-yellow {
+    background-color: var(--orangeNight);
+}
+
+.nav-boton {
+    width: 167px;
+    height: 100%;
+    margin: 0 15.5px 0 15.5px;
+}
+
+.nav-custom-link {
+    margin: 0 5px 0 5px;
+    padding: 10px 5px 10px 5px;
+
+    border-radius: 15px;
+    transition: background-color .4s ease-out, box-shadow .4s ease-out;
+}
+
+.nav-custom-link:hover {
+    background-color: var(--orangeDarK);
+    box-shadow: 0px 0px 10px 0px var(--orangeDarK);
+}
+
+.boton-primary{
+    transition: border-color .25s, box-shadow .2s;
+}
+
+.boton-primary:hover{
+  border-color: var(--orangeDarK);
+  box-shadow: 0px 4px 29px 0px var(--primary);
+}
+
+.boton-night{
+    transition: border-color .25s, box-shadow .2s;
+}
+
+.boton-night:hover{
+  border-color: var(--orangeDarK);
+  box-shadow: 0px 4px 29px 0px var(--orangeNight);
 }

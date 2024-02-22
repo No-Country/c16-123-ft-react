@@ -1,14 +1,9 @@
 .background-pizza {
     display: inline;
-    /* width: 1786.05px;
-    height: 1610.3px; */
     width: auto;
     height: 150vh;
     position: absolute;
-    /* top: -242px; */
     top: -150px;
-    /* left: 746.45px; */
-    /* left: 60%; */
     right: -70vh;
     opacity: 50%;
     rotate: 7.67deg;

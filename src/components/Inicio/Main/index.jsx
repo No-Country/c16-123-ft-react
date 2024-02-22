@@ -1,14 +1,18 @@
-import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import './index.css'
 import  "react-bootstrap"
 
-const Main = () => {
-    const [login, setLogin] = useState(false);
+const Main = ({login, openLogin}) => {
+    console.log(login);
+    const navigate = useNavigate();
 
-    function openLogin(){
-        setLogin(true)
-        console.log(login)
-    }
+    const navigateToLogin=()=>{
+        navigate("/login");
+    };
+
+    const navigateToHome=()=>{
+        navigate("/");
+    };
 
     if(login){
         return(
@@ -26,7 +30,7 @@ const Main = () => {
                         <label htmlFor="passsword" className="form-label text-white">Contraseña</label>
                         <input type="password" name="passsword" id="passsword"className="form-control"/>
                         
-                        <button className='background-light-yellow'>Iniciar</button>
+                        <button className='texto-blanco background-primary-yellow' onClick={navigateToHome}>Iniciar</button>
                     </form>
                 </div>
             </section>
@@ -37,8 +41,8 @@ const Main = () => {
                 <img className="background-pizza z-1" src='/src/assets/pizza.png'></img>
                 <div className='position-absolute welcome'>
                     <h1 className="text-start text-white">Decora tu pizza a tu gusto</h1>
-                    <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
-                    <button className='background-light-yellow' onClick={openLogin}>Comenzemos</button>
+                    <p className="text-start texto-blanco parrafo-inicio z-3">En CustomSlice crea la pizza de tus sueños, ¡justo como te gusta! Sumérgete en un mundo de infinitas posibilidades y sabores, donde cada bocado es una experiencia personalizada. </p>
+                    <button className='texto-blanco background-primary-yellow' onClick={() => {openLogin(); navigateToLogin();}}>Comencemos</button>
                 </div>
                 
             </main>

@@ -1,18 +1,36 @@
-import { Nav, Navbar } from "react-bootstrap";
 import './index.css';
+import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({setLogin}) => {
     return (
-        <Navbar className="d-flex mx-3 px-3 mt-2 justify-content-between navbar" fixed="top">
-            <Navbar.Brand href="#inicio" className="texto-blanco marca-underline pb-0"><span className="texto-marca-custom">Custom</span> <span className="texto-marca-slice texto-amarillo">Slice</span></Navbar.Brand>
+        <nav id="navbar">
+        <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={()=>setLogin(false)} to="/inicio">
+            <span className="texto-marca-custom">Custom</span>
+            <span className="texto-marca-slice texto-amarillo">Slice</span>
+        </Link>
+            <div id="nav-links">
+                <ul id="nav-ulist">
+                    {/* <li>
+                        <Link href="#inicio" 
+                        className="texto-blanco nav-texto nav-custom-link" 
+                        onClick={()=>setLogin(false)} to="/"> Inicio</Link>
+                    </li> */}
+                    {/* <li>
+                        <Link href="#menu" 
+                        className="texto-blanco nav-texto nav-custom-link" 
+                        // TOMAS: hasta que este terminado el menú, clickear este botón te va a llevar a el login
+                        onClick={()=>setLogin(true)} to="/"> Menú</Link>
+                    </li> */}
+                </ul >
+                <Link href="#login" 
+                className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={()=>setLogin(true)} to="/login"> Iniciar Sesión</Link>
+                {/* TOMAS: Botón coulto hasta que la pagina de registro este completa 
+                <Link href="#registro" 
+                className="texto-blanco background-night-yellow rounded nav-texto nav-boton boton-night" to="/registro" > Registrarme</Link>
+                 */}
+            </div>
 
-            <Nav>
-                <Nav.Link href="#inicio" className="texto-blanco mx-2 texto-nav text-shadow">Inicio</Nav.Link>
-                <Nav.Link href="#menu" className="texto-blanco mx-2 texto-nav">Menú</Nav.Link>
-                <Nav.Link href="#login" className="texto-blanco mx-2 background-light-yellow rounded texto-nav">Iniciar Sesión</Nav.Link>
-                <Nav.Link href="#registro" className="texto-blanco mx-2 background-dark-yellow rounded texto-nav">Registrarme</Nav.Link>
-            </Nav>
-        </Navbar>
+        </nav >
     )
 }
 
