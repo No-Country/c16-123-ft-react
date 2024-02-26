@@ -30,15 +30,15 @@ Se planteó realizar un MVP de CustomSlice, el cual contendría las funcionalida
 
 |**Carrito de compras**|
 |:---:|
-| Por último el usuario puede ver el estado de su compra/pedido, pudiendo ver las pizzas, sus costos, metodos de envio costo final y mètodos de pago, para finalmente despachar su pedido.|
+| Por último el usuario puede ver el estado de su compra/pedido, pudiendo ver las pizzas, sus costos, métodos de envio, costo final y métodos de pago, para finalmente despachar su pedido.|
 |![CustomSice_Login](./READMEassets/customSlice_enproduccion.png)|
 
 
 ## Arquitectura Web
 
-|**COORDINACIÒN**||
+|**COORDINACIÓN**||
 |:---:|:---:|
-|<img style="width: 100px; min-width: 100px" src="READMEassets\JiraSoftware.png">|Para la organizaciòn utilizamos la metodología Ágil **Scrum**. Organizamos y planeamos los Sprint realizados, permitiéndonos llevar un control sobre las distintas actividades de los miembros del equipo y así coordinar los avance sobre el proyecto.|
+|<img style="width: 100px; min-width: 100px" src="READMEassets\JiraSoftware.png">|Para la organización utilizamos la metodología Ágil **Scrum**. Organizamos y planeamos los Sprint realizados, permitiéndonos llevar un control sobre las distintas actividades de los miembros del equipo y así coordinar los avance sobre el proyecto.|
 
 Las actividades más relevantes Fueron:
 - Captura de requerimientos. Se llevaron a cabo reuniones donde el Team Líder tomaba el Rol de Product Owner.
@@ -49,7 +49,7 @@ Las actividades más relevantes Fueron:
 
 |**UI/UX**||
 |:---:|:---:|
-| <img style="width: 100px; min-width: 100px" src="READMEassets\Figma.png">|Para  la maquetaciòn de Prototipos de pantallas y sus funcionalidades seutilizò **Figma**, el cual nos permitió visualizar la web en una primera instancia.|
+| <img style="width: 100px; min-width: 100px" src="READMEassets\Figma.png">|Para  la maquetación de Prototipos de pantallas y sus funcionalidades seutilizó **Figma**, el cual nos permitió visualizar la web en una primera instancia.|
 
 Dentro del siguiente link se encuentra la preview del Prototipo Figma Desarrollado: [Figma_preview_CustoSliceWeb](https://www.figma.com/proto/yIK4I16eaDaP46HQnfiF7O/Untitled?type=design&node-id=14-3&t=8ErHT0aqxoBjOeus-0&scaling=scale-down&page-id=0%3A1)
 
@@ -70,7 +70,7 @@ Dentro del siguiente link se encuentra la preview del Prototipo Figma Desarrolla
 
 |**Team Lider**|**FrontEnd**|**FrontEnd**|**UI/UX**| **QA**|**QA**|**Scrum Master/Project Manager/FrontEnd/UI/UX**|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img style="width: 100px; min-width: 100px" src="READMEassets\people_default.png">|<img style="width: 100px; min-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px" src="READMEassets\MarinaCaseres.png">|
+|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MarinaCaseres.png">|
 |**Andrés Rodríguez**|**Angela Gabucci**|**Tomás Nuñez Ingas**|**Luis David Rambao**|**Michellangela Sierra**|**Santiago Cisneros**|**Marina Caseres**|
 |<a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="https://www.linkedin.com/in/marinacaseres/"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> |
 
