@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Inicio from './components/Inicio/index';
@@ -9,7 +9,7 @@ import { useState } from 'react';
 function App() {
   const [login, setLogin] = useState(false);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Inicio login={login} setLogin={setLogin} />} >
           <Route path="/inicio" element={<Inicio login={login} setLogin={setLogin} />} > 
@@ -19,7 +19,7 @@ function App() {
         </Route>
         <Route path="registro" element={<Registro login={login} setLogin={setLogin} />} ></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
   )
 }
