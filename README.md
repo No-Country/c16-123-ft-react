@@ -6,7 +6,7 @@ CustomSlice es una web e-commerce que te permite cargar tu pedido customizado y 
 
 ## ¿Dónde puedo encontrar la web?
 
-La web se encuentra ya disponible en [customslice.com](#)
+La web se encuentra ya disponible en [customslice.com](https://custom-slice.netlify.app/)
 
 # MVP
 
@@ -16,22 +16,22 @@ Se planteó realizar un MVP de CustomSlice, el cual contendría las funcionalida
 |**Login**|
 |:---:|
 |Interfaz en la cual un usuario puede loguearse e ingresar a la web CustomSlice.|
-|![CustomSice_Login](./READMEassets/customSlice_login.png)|
+|![CustomSlice_Login](./READMEassets/customSlice_login.png)|
 
 |**Pizzas predeterminadas**|
 |:---:|
 |Una vez logueado el usuario, llega a la pantalla donde se encuentran 8 pizzas predeterminadas, para que pueda elegir y ordenar.|
-|![CustomSice_Login](./READMEassets/customSlice_enproduccion.png)|
+|![CustomSlice_Login](./READMEassets/screenshots_pizzas_prederterminadas.png)|
 
 |**Pizzas personalizadas**|
 |:---:|
 |Si el usuario lo desea puede customizar sus pizzas a su gusto con los ingredientes que se encuentra en la web y así hacer su pedido mucho más personalizado.|
-|![CustomSice_Login](./READMEassets/customSlice_enproduccion.png)|
+|![CustomSlice_Login](./READMEassets/screenshot_custompizza.png)|
 
 |**Carrito de compras**|
 |:---:|
 | Por último el usuario puede ver el estado de su compra/pedido, pudiendo ver las pizzas, sus costos, métodos de envio, costo final y métodos de pago, para finalmente despachar su pedido.|
-|![CustomSice_Login](./READMEassets/customSlice_enproduccion.png)|
+|![CustomSlice_Login](./READMEassets/customSlice_enproduccion.png)|
 
 
 ## Arquitectura Web
@@ -68,9 +68,9 @@ Dentro del siguiente link se encuentra la preview del Prototipo Figma Desarrolla
 
 ## Equipo de desarrollo
 
-|**Team Lider**|**FrontEnd**|**FrontEnd**|**UI/UX**| **QA**|**QA**|**Scrum Master/Project Manager/FrontEnd/UI/UX**|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MarinaCaseres.png">|
-|**Andrés Rodríguez**|**Angela Gabucci**|**Tomás Nuñez Ingas**|**Luis David Rambao**|**Michellangela Sierra**|**Santiago Cisneros**|**Marina Caseres**|
+|**Team Lider**|**FrontEnd**|**UI/UX**| **QA**|**QA/UI/UX**|**Scrum Master/Project Manager/FrontEnd/UI/UX**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MarinaCaseres.png">|
+|**Andrés Rodríguez**|**Tomás Nuñez Ingas**|**Luis David Rambao**|**Michellangela Sierra**|**Santiago Cisneros**|**Marina Caseres**|
 |<a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="https://www.linkedin.com/in/marinacaseres/"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> |
 
