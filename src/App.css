@@ -1,11 +1,14 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /*max-width: 1280px;*/
+  /*width: 100%;
+  margin: 0 auto;*/
+  /*padding: 2rem;*/
 }
 
 body {
   background: linear-gradient(180deg, #2E2E2E 0%, #262525 100%);
+  margin: 0;
+  padding: 0;
 }
 
 .texto-amarillo {
@@ -14,4 +17,8 @@ body {
 
 .texto-blanco {
   color: #FFFDFB !important;
+}
+
+.texto-negro {
+  color: #000302 !important;
 }

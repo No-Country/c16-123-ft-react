@@ -1,13 +1,14 @@
 import './index.css';
 import { Link } from "react-router-dom";
 
-const NavBar = ({setLogin}) => {
+const NavBar = ({ setLogin, logged, setLogged }) => {
+    console.log("Nav->logged: " + logged);
     return (
-        <nav id="navbar">
-        <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={()=>setLogin(false)} to="/inicio">
-            <span className="texto-marca-custom">Custom</span>
-            <span className="texto-marca-slice texto-amarillo">Slice</span>
-        </Link>
+        <nav className='fixed-top' id="navbar">
+            <Link id="nav-marca" href="#inicio" className="texto-blanco marca-underline" onClick={() => setLogin(false)} to="/inicio">
+                <span className="texto-marca-custom">Custom</span>
+                <span className="texto-marca-slice texto-amarillo">Slice</span>
+            </Link>
             <div id="nav-links">
                 <ul id="nav-ulist">
                     {/* <li>
@@ -22,9 +23,11 @@ const NavBar = ({setLogin}) => {
                         onClick={()=>setLogin(true)} to="/"> Menú</Link>
                     </li> */}
                 </ul >
-                <Link href="#login" 
-                className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={()=>setLogin(true)} to="/login"> Iniciar Sesión</Link>
-                {/* TOMAS: Botón coulto hasta que la pagina de registro este completa 
+                {
+                    logged ? (<Link href="#login" className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={() => { setLogin(false); setLogged(false) }} to="/"> Cerrar Sesión</Link>)
+                        : (<Link href="#login" className="texto-blanco background-primary-yellow rounded nav-texto nav-boton boton-primary" onClick={() => { setLogin(true); }} to="/login"> Iniciar Sesión</Link>)
+                }
+                {/* TOMAS: Botón oculto hasta que la pagina de registro este completa 
                 <Link href="#registro" 
                 className="texto-blanco background-night-yellow rounded nav-texto nav-boton boton-night" to="/registro" > Registrarme</Link>
                  */}

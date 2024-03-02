@@ -1,0 +1,49 @@
+h1, h2{
+    color: white;
+}
+
+.pizzaname{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list-group{
+    margin: 8% 0%;
+    border: var(--orangeNight) solid 1px;
+    width: 70%;
+}
+
+.list-group>.list-group-item{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.list-group>.list_title{
+    border-right: var(--orangeNight) solid 1px;
+    color: var(--primary);
+}
+
+.img_pizza{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.btn_confirm{
+    background-color: var(--primary);
+    float: right;
+    margin-top: 2% auto;
+    width: 50%;
+    border: none;
+}
+
+.btn_confirm:active{
+    background-color: var(--primary) !important;
+    border: var(--primaryLight) 1px solid !important;
+}
+
+.btn_confirm:hover{
+    background-color: var(--primary);
+    border: var(--primaryLight) 1px solid;
+}

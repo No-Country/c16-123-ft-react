@@ -1,3 +1,8 @@
+main {
+
+  overflow: hidden;
+}
+
 .background-pizza {
   display: inline;
   width: auto;
@@ -6,7 +11,7 @@
   top: 0px;
   right: 0px;
   opacity: 100%;
-  z-index: 2;
+  z-index: -1;
 }
 
 .parrafo-inicio {
@@ -82,16 +87,36 @@ input {
   color: white !important;
 }
 
-button {
+.main-boton {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--orangeDarK);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, box-shadow 0.2s;
+}
+
+.main-boton:hover {
+  border-color: var(--orangeDarK);
+  box-shadow: 0px 2px 30px 5px var(--orangeDarK);
+}
+
+.main-boton:focus,
+.main-boton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.main-boton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s, box-shadow 0.2s;
 }
 
 main.off {

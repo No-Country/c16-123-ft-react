@@ -1,0 +1,25 @@
+
+.comp_masas{
+    padding: 0% auto;
+}
+
+h3{
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 1.5%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card{
+    background-color: var(--primaryLight);
+    width: 100% !important;
+}
+
+
+.row{
+    width: 99%;
+    margin: auto;
+}

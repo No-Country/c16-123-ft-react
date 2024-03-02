@@ -27,7 +27,7 @@
     height: 56px;
 }
 
-#nav-marca{
+#nav-marca {
     cursor: default;
 }
 
@@ -62,7 +62,7 @@
     border-color: var(--primary);
 }
 
-.background-primary-yellow{
+.background-primary-yellow {
     background-color: var(--primary);
 }
 
@@ -93,20 +93,21 @@
     box-shadow: 0px 0px 10px 0px var(--orangeDarK);
 }
 
-.boton-primary{
+.boton-primary {
+    border: 1px solid transparent;
     transition: border-color .25s, box-shadow .2s;
 }
 
-.boton-primary:hover{
-  border-color: var(--orangeDarK);
-  box-shadow: 0px 4px 29px 0px var(--primary);
+.boton-primary:hover {
+    border-color: var(--orangeDarK);
+    box-shadow: 0px 2px 30px 5px var(--orangeDarK);
 }
 
-.boton-night{
+.boton-night {
     transition: border-color .25s, box-shadow .2s;
 }
 
-.boton-night:hover{
-  border-color: var(--orangeDarK);
-  box-shadow: 0px 4px 29px 0px var(--orangeNight);
+.boton-night:hover {
+    border-color: var(--orangeDarK);
+    box-shadow: 0px 4px 29px 0px var(--orangeNight);
 }

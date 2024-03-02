@@ -1,0 +1,10 @@
+.selected{
+    border-color: var(--orangeDarK);
+    box-shadow: 0px 4px 29px 0px var(--primary);
+    border: var(--primary) solid 2px;
+}
+
+.custom{
+    margin-top: 10%;
+    background-color: #373737;
+}

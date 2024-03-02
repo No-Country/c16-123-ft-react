@@ -1,0 +1,18 @@
+.btn_sections{
+    background-color: var(--primary);
+    float: right;
+    margin: 2% 1.5% 2% auto;
+    width: 20%;
+    border: none;
+}
+
+.btn_sections:active{
+    background-color: var(--primary) !important;
+    border: var(--primaryLight) 1px solid !important;
+}
+
+.btn_sections:hover{
+    background-color: var(--primary);
+    border: var(--primaryLight) 1px solid;
+    box-shadow: 0px 2px 30px 5px var(--orangeDarK);
+}

@@ -1,0 +1,71 @@
+.row_custom_index{
+    margin-top: 13.4%;
+}
+.col{
+    width: 50%;
+}
+
+.col_custom{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+.col_custom>button{
+    margin: 2% 10%;
+    height: 10%;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0%;
+}
+
+.col_custom>button:hover{
+    box-shadow: 0px 2px 30px 5px var(--orangeDarK);
+}
+
+
+.col_custom>button>a{
+    display: block;
+    color: black;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+.col_custom>button>a:hover{
+    color: black;
+}
+
+.col_custom>.btn_masas, .col_custom>.btn_masas:active{
+    background-color: var(--orangeDarK);
+}
+.col_custom>.btn_salsas, .col_custom>.btn_salsas:active{
+    background-color: var(--red);
+}
+.col_custom>.btn_ingredientes, .col_custom>.btn_ingredientes:active{
+    background-color: var(--green);
+}
+.col_custom>.btn_quesos, .col_custom>.btn_quesos:active{
+    background-color: var(--primaryMiddle);
+}
+
+.col_custom>.btn_continuar, .col_custom>.btn_continuar:active{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    width: 50%;
+    align-self: self-end;
+    background-color: var(--primary);
+    color: white;
+}
+
+.col_custom>.btn_continuar:hover{
+    color: white;
+}
+
+
+.img_pizza{
+    width: 100%;
+}
+
+

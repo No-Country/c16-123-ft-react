@@ -1,0 +1,135 @@
+#menuMain {
+    display: flex ;
+    flex-direction: column;
+    position: absolute;
+    top: 130.517px;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#menuTitle {
+    margin: auto;
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#menuCards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.enable-scroll {
+    overflow: scroll;
+}
+
+.menu-button-custom {
+    width: 410px;
+    height: 106px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-right: 40px;
+
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    transition: border .25s, box-shadow .25s;
+}
+
+.menu-button-custom:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--orangeNight);
+    box-shadow: 0px 2px 30px 5px var(--orangeNight);
+}
+
+.menu-button-custom:active {
+    background-color: var(--primaryMiddle) !important;
+    border: 1px solid var(--orangeDarK) !important;
+    box-shadow: 0px 2px 30px 5px var(--orangeDarK);
+}
+
+/* Cards */
+
+
+.menu-card {
+    border: 2px solid transparent;
+    flex: 1 1 31%;
+    max-width: 350px;
+    min-width: 300px;  
+    max-height: 180px;
+}
+
+.menu-card:hover {
+    border: 2px solid var(--orangeNight);
+}
+
+.card-image {
+    min-width: 110px;
+    margin: 20px;
+    margin-right: 0;
+    background-color: #ffffff;
+    border: 1px solid var(--orangeDarK );
+    object-fit: contain;
+    flex: 0 0 33%;
+}
+
+.card-img-body{
+    display: flex;
+}
+
+.menu-card-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.menu-card-text {
+    text-align: center;
+}
+
+.menu-card-description{
+    font-size: .8rem;
+}
+
+.menu-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* width: 180px; */
+    width: 80%;
+    height: 38px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    align-self: center;
+    /* margin: 5px; */
+    margin: auto;
+    margin-top: 0;
+    transition: border .25s, box-shadow .25s, background-color .25s;
+}
+
+.menu-card-button:hover {
+    background-color: var(--orangeDarK);
+    border: 1px solid var(--orangeNight);
+}
+
+.menu-card-button:active {
+    background-color: var(--primary) !important;
+    border: 1px solid var(--orangeNight) !important;
+}
+
+.menu-card-select{
+    display: flex;
+}
+
+.card-background {
+    border-radius: 8px !important;
+    background-color: var(--primaryLight);
+}
