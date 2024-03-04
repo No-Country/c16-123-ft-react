@@ -6,7 +6,7 @@ CustomSlice es una web e-commerce que te permite cargar tu pedido customizado y 
 
 ## ¿Dónde puedo encontrar la web?
 
-La web se encuentra ya disponible en [customslice.com](https://custom-slice.netlify.app/)
+La web se encuentra ya disponible en [custom-slice.vercel.app](https://custom-slice.vercel.app/)
 
 # MVP
 
@@ -31,7 +31,7 @@ Se planteó realizar un MVP de CustomSlice, el cual contendría las funcionalida
 |**Carrito de compras**|
 |:---:|
 | Por último el usuario puede ver el estado de su compra/pedido, pudiendo ver las pizzas, sus costos, métodos de envio, costo final y métodos de pago, para finalmente despachar su pedido.|
-|![CustomSlice_Login](./READMEassets/customSlice_enproduccion.png)|
+|![CustomSlice_Login](./READMEassets/carrito.png)|
 
 
 ## Arquitectura Web
