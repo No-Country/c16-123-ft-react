@@ -6,7 +6,7 @@ CustomSlice es una web e-commerce que te permite cargar tu pedido customizado y 
 
 ## ¿Dónde puedo encontrar la web?
 
-La web se encuentra ya disponible en [customslice.com](#)
+La web se encuentra ya disponible en [customslice.com](custom-slice.vercel.app)
 
 # MVP
 
@@ -68,9 +68,9 @@ Dentro del siguiente link se encuentra la preview del Prototipo Figma Desarrolla
 
 ## Equipo de desarrollo
 
-|**Team Lider**|**FrontEnd**|**FrontEnd**|**UI/UX**| **QA**|**QA**|**Scrum Master/Project Manager/FrontEnd/UI/UX**|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MarinaCaseres.png">|
-|**Andrés Rodríguez**|**Angela Gabucci**|**Tomás Nuñez Ingas**|**Luis David Rambao**|**Michellangela Sierra**|**Santiago Cisneros**|**Marina Caseres**|
+|**Team Lider**|**FrontEnd**|**UI/UX**| **QA**|**QA/UI/UX**|**Scrum Master/Project Manager/FrontEnd/UI/UX**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\TomásNuñezIngas.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MichellangelaSierra.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\people_default.png">| <img style="width: 100px; min-width: 100px; max-width: 100px" src="READMEassets\MarinaCaseres.png">|
+|**Andrés Rodríguez**|**Tomás Nuñez Ingas**|**Luis David Rambao**|**Michellangela Sierra**|**Santiago Cisneros**|**Marina Caseres**|
 |<a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="#"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> | <a href="https://www.linkedin.com/in/marinacaseres/"><img style="width: 100px; min-width: 100px" src="READMEassets\LinkedIn-emblema.png"></a> |
 
