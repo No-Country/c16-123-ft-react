@@ -6,7 +6,9 @@ CustomSlice es una web e-commerce que te permite cargar tu pedido customizado y 
 
 ## ¿Dónde puedo encontrar la web?
 
+
 La web se encuentra ya disponible en [custom-slice.vercel.app](https://custom-slice.vercel.app/)
+
 
 # MVP
 
